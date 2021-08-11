@@ -10,7 +10,7 @@ datetime
 sqlite3
 
 # Screenshots
-<img src="Event Tracker/ss.png" width="600">
+<img src="Event Tracker/ss.png" width="900">
 
 
 

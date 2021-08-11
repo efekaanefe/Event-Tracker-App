@@ -41,7 +41,7 @@ def show_data():
     con = sqlite3.connect("data.db")
     cur = con.cursor()
 
-    cur.execute("SELECT rowid, * FROM data")
+    cur.execute("SELECT rowid, * FROM data ORDER BY date")
     data = cur.fetchall()
     string_data = "ID - Event: Month/Day/Year\n"+"-"*42+"\n"
     data_exist = False
